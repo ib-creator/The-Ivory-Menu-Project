@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ------ ALL CONTAINER STYLING ----------*/
+
+/* Left menu */
+#left-menu {
+    line-height: 77px;
+}
+
+
+/* Right menu */
+#right-menu {
+    line-height: 77px;
+}
+
+
+/* The container that holds everything in the menu */
+.menu-container {
+    display: flex;
+
+}
+
+
+
+/* ----- MENU IMG, DESCRIPTION STYLING------- */
+
+
+/* styling for all of the dish images */
+.food-img {
+
+    width: 238px;
+    height: 150px;
+
+}
+
+.dish-info {
+    display: flex;
+}
+
+p {
+
+    line-height: 25px;
+    margin-top: -47px;
+    font-size: 14px;
+}
+
+.info-box {
+    margin-top: -49px;
+}
