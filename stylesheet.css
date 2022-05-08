@@ -21,6 +21,7 @@ body {
 /* The container that holds everything in the menu */
 .menu-container {
     display: flex;
+    padding: 190px;
 
 }
 
@@ -34,16 +35,19 @@ body {
 
     width: 238px;
     height: 150px;
+    border-radius: 5px;
+    border: 3px rgb(255, 224, 167) solid;
 
 }
 
 .dish-info {
     display: flex;
+    margin-bottom: 38px;
 }
 
 p {
 
-    line-height: 25px;
+    line-height: 18px;
     margin-top: -47px;
     font-size: 14px;
 }
