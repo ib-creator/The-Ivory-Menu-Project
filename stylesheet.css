@@ -4,6 +4,20 @@ body {
 }
 
 
+h1 {
+    text-align: center;
+}
+
+h4 {
+    line-height: 121px;
+    color: rgb(157, 107, 15) solid;
+}
+
+h5 {
+    text-align: center;
+}
+
+
 /* ------ ALL CONTAINER STYLING ----------*/
 
 /* Left menu */
@@ -20,8 +34,10 @@ body {
 
 /* The container that holds everything in the menu */
 .menu-container {
-    display: flex;
+
     padding: 190px;
+    margin-left: 191px;
+
 
 }
 
@@ -36,8 +52,12 @@ body {
     width: 238px;
     height: 150px;
     border-radius: 5px;
-    border: 3px rgb(255, 224, 167) solid;
+    border: 3px rgb(208, 140, 15) solid;
 
+}
+
+.food-description {
+    margin-left: 29px;
 }
 
 .dish-info {
@@ -50,8 +70,31 @@ p {
     line-height: 18px;
     margin-top: -47px;
     font-size: 14px;
+    color: rgb(196, 165, 128);
 }
 
 .info-box {
     margin-top: -49px;
+}
+
+
+
+/* BUTTONS */
+
+#button-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+.buttons {
+    padding: 10px;
+    color: rgb(208, 140, 15);
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px rgb(208, 140, 15) solid;
+
+
 }

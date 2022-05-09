@@ -1,0 +1,21 @@
+let displayMenu = menu.map(function (item) {
+        //console.log(item);
+
+        return `<div class="dish-info">
+        <img src=${item.img} alt=${item.title} class="food-img">
+        <div class="food-description">
+            <div class="info-box">
+                <h4>${item.title}</h4>
+
+                <p>${item.desc}</p>
+            </div>
+
+
+        </div>
+    </div>
+`;
+
+    });
+
+    displayMenu = displayMenu.join("")
+    menuCenter.innerHTML = displayMenu;

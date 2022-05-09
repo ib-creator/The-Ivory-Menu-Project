@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Ivory| Menu </title>
+    <title>The Ivory | Menu </title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
@@ -13,14 +13,19 @@
 <body>
     <header>
         <h1>Our Menu</h1>
+        <h5>tel: 020 123 4567 89 | The Ivory </h5>
 
         <!--Menu buttons-->
-        <div id="buttons">
-            <button>All</button>
-            <button>Breakfast</button>
-            <button>Lunch</button>
-            <button>Dinner</button>
-            <button>Drinks</button>
+        <div id="button-container">
+            <button class="buttons" type="button" data-id="all">All</button>
+            <button class="buttons" type="button" data-id="breakfast">Breakfast</button>
+            <button class="buttons" type="button" data-id="lunch">Lunch</button>
+            <button class="buttons" type="button" data-id="dinner">Dinner</button>
+            <button class="buttons" type="button" data-id="drinks">Drinks</button>
+        </div>
+
+
+
         </div>
     </header>
 
@@ -57,7 +62,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>Pancake deal&nbsp;&nbsp;&nbsp;&nbsp; £8.99</h4>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
                                 repellendus<br>
@@ -74,7 +79,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>The Deli Sandwich Meal&nbsp;&nbsp;&nbsp;&nbsp; £6.99</h4>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
                                 repellendus<br>
@@ -91,7 +96,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>Salad deal&nbsp;&nbsp;&nbsp;&nbsp; £9.99</h4>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
                                 repellendus<br>
@@ -122,7 +127,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>The ultimate dinner combo&nbsp;&nbsp;&nbsp;&nbsp; £19.99</h4>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
                                 repellendus<br>
@@ -139,7 +144,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>Seafood deal&nbsp;&nbsp;&nbsp;&nbsp; £21.99</h4>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
                                 repellendus<br>
@@ -156,7 +161,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>Two for one drinks&nbsp;&nbsp;&nbsp;&nbsp; £22.99</h4>
 
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
@@ -174,7 +179,7 @@
                         class="food-img">
                     <div class="food-description">
                         <div class="info-box">
-                            <h4>Breakfast combo&nbsp;&nbsp;&nbsp;&nbsp; £13.99</h4>
+                            <h4>All night long cocktails&nbsp;&nbsp;&nbsp;&nbsp; £24.99</h4>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Officiis eveniet quos
                                 repellendus<br>
@@ -188,10 +193,12 @@
                 </div>
             </div>
         </div>
+
+
     </main>
 
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
