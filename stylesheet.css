@@ -98,3 +98,94 @@ p {
 
 
 }
+
+/* MOBILE MEDIA QUERIES */
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h5 {
+        font-size: 26px;
+    }
+
+    #button-container {
+        gap: 47px;
+        margin-bottom: 50px;
+    }
+
+    .buttons {
+        padding: 18px;
+    }
+
+    .menu-container {
+        display: contents;
+    }
+
+}
+
+/* Smaller mobile devices */
+@media only screen and (min-width: 0px) and (max-width: 766px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .dish-info {
+        display: table;
+        margin-left: 51px;
+    }
+
+    .food-description {
+        margin-left: 3px;
+    }
+
+    #button-container {
+        gap: 29px;
+
+    }
+
+    .buttons {
+        padding: 3px;
+    }
+
+    .menu-container {
+        display: contents;
+    }
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #button-container {
+        margin-bottom: 40px;
+        gap: 48px;
+    }
+
+    .buttons {
+
+        padding: 26px;
+    }
+
+    .menu-container {
+        display: contents;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+}
